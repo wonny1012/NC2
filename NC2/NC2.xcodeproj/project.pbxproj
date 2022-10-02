@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4E808E28BDBB8100D297C6 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E808D28BDBB8100D297C6 /* VideoCapture.swift */; };
+		0E4E80CE28C02B6800D297C6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E80CD28C02B6700D297C6 /* Utility.swift */; };
 		0E716ED928BDB71F00FDC542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E716ED828BDB71F00FDC542 /* AppDelegate.swift */; };
 		0E716EDB28BDB71F00FDC542 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E716EDA28BDB71F00FDC542 /* SceneDelegate.swift */; };
 		0E716EDD28BDB71F00FDC542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E716EDC28BDB71F00FDC542 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E4E808D28BDBB8100D297C6 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		0E4E80CD28C02B6700D297C6 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		0E716ED528BDB71F00FDC542 /* NC2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E716ED828BDB71F00FDC542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E716EDA28BDB71F00FDC542 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4E808A28BDBB3800D297C6 /* Cotrollers */ = {
+			isa = PBXGroup;
+			children = (
+				0E716EDC28BDB71F00FDC542 /* ViewController.swift */,
+				0E4E808D28BDBB8100D297C6 /* VideoCapture.swift */,
+				0E4E80CD28C02B6700D297C6 /* Utility.swift */,
+			);
+			path = Cotrollers;
+			sourceTree = "<group>";
+		};
 		0E716ECC28BDB71F00FDC542 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,9 @@
 		0E716ED728BDB71F00FDC542 /* NC2 */ = {
 			isa = PBXGroup;
 			children = (
+				0E4E808A28BDBB3800D297C6 /* Cotrollers */,
 				0E716ED828BDB71F00FDC542 /* AppDelegate.swift */,
 				0E716EDA28BDB71F00FDC542 /* SceneDelegate.swift */,
-				0E716EDC28BDB71F00FDC542 /* ViewController.swift */,
 				0E716EDE28BDB71F00FDC542 /* Main.storyboard */,
 				0E716EE128BDB72000FDC542 /* Assets.xcassets */,
 				0E716EE328BDB72000FDC542 /* LaunchScreen.storyboard */,
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4E80CE28C02B6800D297C6 /* Utility.swift in Sources */,
 				0E716EDD28BDB71F00FDC542 /* ViewController.swift in Sources */,
 				0E716ED928BDB71F00FDC542 /* AppDelegate.swift in Sources */,
+				0E4E808E28BDBB8100D297C6 /* VideoCapture.swift in Sources */,
 				0E716EDB28BDB71F00FDC542 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +306,8 @@
 				DEVELOPMENT_TEAM = BQUJTNYMGY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NC2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FaceBody;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라를 사용 하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +336,8 @@
 				DEVELOPMENT_TEAM = BQUJTNYMGY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NC2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FaceBody;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라를 사용 하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
